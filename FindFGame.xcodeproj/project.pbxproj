@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		11EEC66328846BB3006E1303 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EEC66228846BB3006E1303 /* AppDelegate.swift */; };
 		11EEC66528846BB3006E1303 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EEC66428846BB3006E1303 /* SceneDelegate.swift */; };
-		11EEC66728846BB3006E1303 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EEC66628846BB3006E1303 /* ViewController.swift */; };
+		11EEC66728846BB3006E1303 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EEC66628846BB3006E1303 /* GameViewController.swift */; };
 		11EEC66A28846BB3006E1303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11EEC66828846BB3006E1303 /* Main.storyboard */; };
 		11EEC66D28846BB3006E1303 /* FindFGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11EEC66B28846BB3006E1303 /* FindFGame.xcdatamodeld */; };
 		11EEC66F28846BB4006E1303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11EEC66E28846BB4006E1303 /* Assets.xcassets */; };
 		11EEC67228846BB4006E1303 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11EEC67028846BB4006E1303 /* LaunchScreen.storyboard */; };
+		11EEC6BB28993CCA006E1303 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EEC6BA28993CCA006E1303 /* Circle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11EEC65F28846BB3006E1303 /* FindFGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindFGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11EEC66228846BB3006E1303 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11EEC66428846BB3006E1303 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		11EEC66628846BB3006E1303 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11EEC66628846BB3006E1303 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		11EEC66928846BB3006E1303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11EEC66C28846BB3006E1303 /* FindFGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FindFGame.xcdatamodel; sourceTree = "<group>"; };
 		11EEC66E28846BB4006E1303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11EEC67128846BB4006E1303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11EEC67328846BB4006E1303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11EEC6BA28993CCA006E1303 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,8 @@
 			children = (
 				11EEC66228846BB3006E1303 /* AppDelegate.swift */,
 				11EEC66428846BB3006E1303 /* SceneDelegate.swift */,
-				11EEC66628846BB3006E1303 /* ViewController.swift */,
+				11EEC66628846BB3006E1303 /* GameViewController.swift */,
+				11EEC6BA28993CCA006E1303 /* Circle.swift */,
 				11EEC66828846BB3006E1303 /* Main.storyboard */,
 				11EEC66E28846BB4006E1303 /* Assets.xcassets */,
 				11EEC67028846BB4006E1303 /* LaunchScreen.storyboard */,
@@ -141,7 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11EEC66728846BB3006E1303 /* ViewController.swift in Sources */,
+				11EEC6BB28993CCA006E1303 /* Circle.swift in Sources */,
+				11EEC66728846BB3006E1303 /* GameViewController.swift in Sources */,
 				11EEC66328846BB3006E1303 /* AppDelegate.swift in Sources */,
 				11EEC66528846BB3006E1303 /* SceneDelegate.swift in Sources */,
 				11EEC66D28846BB3006E1303 /* FindFGame.xcdatamodeld in Sources */,
